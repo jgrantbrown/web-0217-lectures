@@ -1,1 +1,13 @@
-This is the new.erb file
+new.erb file
+<div style= "text-align:center" >
+<h1 style="color:white; background-color:black"> Add a character</h1>
+<form method= "POST" action='/characters'>
+  <label> Character Name:</label>
+  <input type="text" name="character[name]">
+  <label> Actor Name:</label>
+  <input type="text" name="actor[name]">
+  <label> Tv Show Name:</label>
+  <input type="text" name="tv_show[name]">
+
+  <input type="submit" value="Create a Character"></div>
+</form>
